@@ -1,0 +1,359 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CurrentSensorCondititoning-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Current Sensor Conditioning"
+Date ""
+Rev ""
+Comp "UASC Racing Team 2018"
+Comment1 "Design By Muhammad Zharfan Wiranata"
+Comment2 "Draw By Muhammad Zharfan Wiranata"
+Comment3 "Manufactured by Muhammad Zharfan Wiranata"
+Comment4 ""
+$EndDescr
+$Comp
+L OP07 U?
+U 1 1 5CF18E9A
+P 4650 3300
+F 0 "U?" H 4700 3550 50  0000 L CNN
+F 1 "OP07" H 4700 3450 50  0000 L CNN
+F 2 "" H 4700 3350 50  0001 C CNN
+F 3 "" H 4700 3450 50  0001 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +VDC #PWR?
+U 1 1 5CF18EE1
+P 4550 2600
+F 0 "#PWR?" H 4550 2500 50  0001 C CNN
+F 1 "+VDC" H 4550 2850 50  0000 C CNN
+F 2 "" H 4550 2600 50  0001 C CNN
+F 3 "" H 4550 2600 50  0001 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L -VDC #PWR?
+U 1 1 5CF18EFD
+P 4550 4150
+F 0 "#PWR?" H 4550 4050 50  0001 C CNN
+F 1 "-VDC" H 4550 4400 50  0000 C CNN
+F 2 "" H 4550 4150 50  0001 C CNN
+F 3 "" H 4550 4150 50  0001 C CNN
+	1    4550 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5CF18F94
+P 4850 3900
+F 0 "R?" V 4930 3900 50  0000 C CNN
+F 1 "R" V 4850 3900 50  0000 C CNN
+F 2 "" V 4780 3900 50  0001 C CNN
+F 3 "" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5CF19001
+P 4050 3900
+F 0 "R?" V 4130 3900 50  0000 C CNN
+F 1 "R" V 4050 3900 50  0000 C CNN
+F 2 "" V 3980 3900 50  0001 C CNN
+F 3 "" H 4050 3900 50  0001 C CNN
+	1    4050 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV?
+U 1 1 5CF19085
+P 3600 3900
+F 0 "RV?" V 3425 3900 50  0000 C CNN
+F 1 "POT" V 3500 3900 50  0000 C CNN
+F 2 "" H 3600 3900 50  0001 C CNN
+F 3 "" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CF190FE
+P 3600 4300
+F 0 "#PWR?" H 3600 4050 50  0001 C CNN
+F 1 "GND" H 3600 4150 50  0000 C CNN
+F 2 "" H 3600 4300 50  0001 C CNN
+F 3 "" H 3600 4300 50  0001 C CNN
+	1    3600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5CF19138
+P 3600 3550
+F 0 "#PWR?" H 3600 3400 50  0001 C CNN
+F 1 "+5V" H 3600 3690 50  0000 C CNN
+F 2 "" H 3600 3550 50  0001 C CNN
+F 3 "" H 3600 3550 50  0001 C CNN
+	1    3600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5CF1916E
+P 3850 3200
+F 0 "R?" V 3930 3200 50  0000 C CNN
+F 1 "10k" V 3850 3200 50  0000 C CNN
+F 2 "" V 3780 3200 50  0001 C CNN
+F 3 "" H 3850 3200 50  0001 C CNN
+	1    3850 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5CF191AF
+P 4150 3450
+F 0 "R?" V 4230 3450 50  0000 C CNN
+F 1 "R" V 4150 3450 50  0000 C CNN
+F 2 "" V 4080 3450 50  0001 C CNN
+F 3 "" H 4150 3450 50  0001 C CNN
+	1    4150 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CF19217
+P 4150 3650
+F 0 "#PWR?" H 4150 3400 50  0001 C CNN
+F 1 "GND" H 4150 3500 50  0000 C CNN
+F 2 "" H 4150 3650 50  0001 C CNN
+F 3 "" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x05 J?
+U 1 1 5CF192F4
+P 1050 2550
+F 0 "J?" H 1050 2850 50  0000 C CNN
+F 1 "Conn_01x05" H 1050 2250 50  0000 C CNN
+F 2 "" H 1050 2550 50  0001 C CNN
+F 3 "" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CF195C0
+P 1450 3550
+F 0 "#PWR?" H 1450 3300 50  0001 C CNN
+F 1 "GND" H 1450 3400 50  0000 C CNN
+F 2 "" H 1450 3550 50  0001 C CNN
+F 3 "" H 1450 3550 50  0001 C CNN
+	1    1450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2600 4550 3000
+Wire Wire Line
+	4550 3600 4550 4150
+Wire Wire Line
+	4950 3300 6950 3300
+Wire Wire Line
+	5250 3300 5250 3900
+Wire Wire Line
+	5250 3900 5000 3900
+Wire Wire Line
+	4350 3400 4350 3900
+Wire Wire Line
+	4200 3900 4700 3900
+Connection ~ 4350 3900
+Wire Wire Line
+	3600 4050 3600 4300
+Wire Wire Line
+	3750 3900 3900 3900
+Wire Wire Line
+	3600 3550 3600 3750
+Wire Wire Line
+	4000 3200 4350 3200
+Wire Wire Line
+	4150 3300 4150 3200
+Connection ~ 4150 3200
+Wire Wire Line
+	4150 3600 4150 3650
+Wire Wire Line
+	1250 2750 1450 2750
+Wire Wire Line
+	1450 2750 1450 3550
+$Comp
+L +VDC #PWR?
+U 1 1 5CF196AF
+P 1450 1700
+F 0 "#PWR?" H 1450 1600 50  0001 C CNN
+F 1 "+VDC" H 1450 1950 50  0000 C CNN
+F 2 "" H 1450 1700 50  0001 C CNN
+F 3 "" H 1450 1700 50  0001 C CNN
+	1    1450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2350 1450 2350
+Wire Wire Line
+	1450 2350 1450 1700
+Wire Wire Line
+	1250 2650 2500 2650
+Wire Wire Line
+	2500 2650 2500 3200
+Wire Wire Line
+	2500 3200 3700 3200
+$Comp
+L OP07 U?
+U 1 1 5CF19A87
+P 7250 3400
+F 0 "U?" H 7300 3650 50  0000 L CNN
+F 1 "OP07" H 7300 3550 50  0000 L CNN
+F 2 "" H 7300 3450 50  0001 C CNN
+F 3 "" H 7300 3550 50  0001 C CNN
+	1    7250 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 3300
+$Comp
+L POT RV?
+U 1 1 5CF19B1E
+P 7800 3900
+F 0 "RV?" V 7625 3900 50  0000 C CNN
+F 1 "POT" V 7700 3900 50  0000 C CNN
+F 2 "" H 7800 3900 50  0001 C CNN
+F 3 "" H 7800 3900 50  0001 C CNN
+	1    7800 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3400 9550 3400
+Wire Wire Line
+	7800 3400 7800 3750
+Wire Wire Line
+	7650 3900 6800 3900
+Wire Wire Line
+	6800 3900 6800 3500
+Wire Wire Line
+	6800 3500 6950 3500
+$Comp
+L GND #PWR?
+U 1 1 5CF19C02
+P 7800 4200
+F 0 "#PWR?" H 7800 3950 50  0001 C CNN
+F 1 "GND" H 7800 4050 50  0000 C CNN
+F 2 "" H 7800 4200 50  0001 C CNN
+F 3 "" H 7800 4200 50  0001 C CNN
+	1    7800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4050 7800 4200
+$Comp
+L +VDC #PWR?
+U 1 1 5CF19C4F
+P 7150 2600
+F 0 "#PWR?" H 7150 2500 50  0001 C CNN
+F 1 "+VDC" H 7150 2850 50  0000 C CNN
+F 2 "" H 7150 2600 50  0001 C CNN
+F 3 "" H 7150 2600 50  0001 C CNN
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L -VDC #PWR?
+U 1 1 5CF19C75
+P 7150 4150
+F 0 "#PWR?" H 7150 4050 50  0001 C CNN
+F 1 "-VDC" H 7150 4400 50  0000 C CNN
+F 2 "" H 7150 4150 50  0001 C CNN
+F 3 "" H 7150 4150 50  0001 C CNN
+	1    7150 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 4150 7150 3700
+Wire Wire Line
+	7150 3100 7150 2600
+$Comp
+L +5V #PWR?
+U 1 1 5CF19D6A
+P 1800 1600
+F 0 "#PWR?" H 1800 1450 50  0001 C CNN
+F 1 "+5V" H 1800 1740 50  0000 C CNN
+F 2 "" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1600 1800 2550
+Wire Wire Line
+	1800 2550 1250 2550
+$Comp
+L Conn_01x03 J?
+U 1 1 5CF35594
+P 9750 3400
+F 0 "J?" H 9750 3600 50  0000 C CNN
+F 1 "Conn_01x03" H 9750 3200 50  0000 C CNN
+F 2 "" H 9750 3400 50  0001 C CNN
+F 3 "" H 9750 3400 50  0001 C CNN
+	1    9750 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 3400
+$Comp
+L GND #PWR?
+U 1 1 5CF3562D
+P 9250 3700
+F 0 "#PWR?" H 9250 3450 50  0001 C CNN
+F 1 "GND" H 9250 3550 50  0000 C CNN
+F 2 "" H 9250 3700 50  0001 C CNN
+F 3 "" H 9250 3700 50  0001 C CNN
+	1    9250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3500 9250 3500
+Wire Wire Line
+	9250 3500 9250 3700
+$EndSCHEMATC

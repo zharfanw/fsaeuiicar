@@ -1,0 +1,267 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:icl7660
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ICL7660 U?
+U 1 1 5CF6C297
+P 6050 2350
+F 0 "U?" H 6050 2600 60  0000 C CNN
+F 1 "ICL7660" H 6050 2100 60  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 6050 2350 60  0001 C CNN
+F 3 "" H 6050 2350 60  0001 C CNN
+	1    6050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CF6C347
+P 5400 3000
+F 0 "#PWR?" H 5400 2750 50  0001 C CNN
+F 1 "GND" H 5400 2850 50  0000 C CNN
+F 2 "" H 5400 3000 50  0001 C CNN
+F 3 "" H 5400 3000 50  0001 C CNN
+	1    5400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +VDC #PWR?
+U 1 1 5CF6C36E
+P 6700 1950
+F 0 "#PWR?" H 6700 1850 50  0001 C CNN
+F 1 "+VDC" H 6700 2200 50  0000 C CNN
+F 2 "" H 6700 1950 50  0001 C CNN
+F 3 "" H 6700 1950 50  0001 C CNN
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2200 6700 2200
+Wire Wire Line
+	6700 2200 6700 1950
+Wire Wire Line
+	5600 2400 5400 2400
+Wire Wire Line
+	5400 2400 5400 3000
+$Comp
+L CP C?
+U 1 1 5CF6C38C
+P 4900 2450
+F 0 "C?" H 4925 2550 50  0000 L CNN
+F 1 "CP" H 4925 2350 50  0000 L CNN
+F 2 "" H 4938 2300 50  0001 C CNN
+F 3 "" H 4900 2450 50  0001 C CNN
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2300 5600 2300
+Wire Wire Line
+	4900 2600 5500 2600
+Wire Wire Line
+	5500 2600 5500 2500
+Wire Wire Line
+	5500 2500 5600 2500
+$Comp
+L CP C?
+U 1 1 5CF6C43D
+P 6600 2800
+F 0 "C?" H 6625 2900 50  0000 L CNN
+F 1 "CP" H 6625 2700 50  0000 L CNN
+F 2 "" H 6638 2650 50  0001 C CNN
+F 3 "" H 6600 2800 50  0001 C CNN
+	1    6600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2500 6600 2500
+Wire Wire Line
+	6600 2500 7050 2500
+Wire Wire Line
+	6600 2500 6600 2650
+$Comp
+L GND #PWR?
+U 1 1 5CF6C49D
+P 6600 3050
+F 0 "#PWR?" H 6600 2800 50  0001 C CNN
+F 1 "GND" H 6600 2900 50  0000 C CNN
+F 2 "" H 6600 3050 50  0001 C CNN
+F 3 "" H 6600 3050 50  0001 C CNN
+	1    6600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2950 6600 3050
+$Comp
+L -VDC #PWR?
+U 1 1 5CF6C4D1
+P 7050 2300
+F 0 "#PWR?" H 7050 2200 50  0001 C CNN
+F 1 "-VDC" H 7050 2550 50  0000 C CNN
+F 2 "" H 7050 2300 50  0001 C CNN
+F 3 "" H 7050 2300 50  0001 C CNN
+	1    7050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2500 7050 2300
+Connection ~ 6600 2500
+$Comp
+L Conn_01x02 Supply
+U 1 1 5CF6C592
+P 2700 1800
+F 0 "Supply" H 2700 1900 50  0000 C CNN
+F 1 "Conn_01x02" H 2700 1600 50  0000 C CNN
+F 2 "" H 2700 1800 50  0001 C CNN
+F 3 "" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +VDC #PWR?
+U 1 1 5CF6C667
+P 3800 1600
+F 0 "#PWR?" H 3800 1500 50  0001 C CNN
+F 1 "+VDC" H 3800 1850 50  0000 C CNN
+F 2 "" H 3800 1600 50  0001 C CNN
+F 3 "" H 3800 1600 50  0001 C CNN
+	1    3800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1800 3800 1600
+$Comp
+L GND #PWR?
+U 1 1 5CF6C691
+P 3800 2000
+F 0 "#PWR?" H 3800 1750 50  0001 C CNN
+F 1 "GND" H 3800 1850 50  0000 C CNN
+F 2 "" H 3800 2000 50  0001 C CNN
+F 3 "" H 3800 2000 50  0001 C CNN
+	1    3800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1900 3800 1900
+Wire Wire Line
+	3800 1900 3800 2000
+$Comp
+L Conn_01x03 J?
+U 1 1 5CF6C88D
+P 8350 1600
+F 0 "J?" H 8350 1800 50  0000 C CNN
+F 1 "Conn_01x03" H 8350 1400 50  0000 C CNN
+F 2 "" H 8350 1600 50  0001 C CNN
+F 3 "" H 8350 1600 50  0001 C CNN
+	1    8350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +VDC #PWR?
+U 1 1 5CF6C8D2
+P 7750 1350
+F 0 "#PWR?" H 7750 1250 50  0001 C CNN
+F 1 "+VDC" H 7750 1600 50  0000 C CNN
+F 2 "" H 7750 1350 50  0001 C CNN
+F 3 "" H 7750 1350 50  0001 C CNN
+	1    7750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L -VDC #PWR?
+U 1 1 5CF6C8EC
+P 8000 1350
+F 0 "#PWR?" H 8000 1250 50  0001 C CNN
+F 1 "-VDC" H 8000 1600 50  0000 C CNN
+F 2 "" H 8000 1350 50  0001 C CNN
+F 3 "" H 8000 1350 50  0001 C CNN
+	1    8000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5CF6C906
+P 7750 1850
+F 0 "#PWR?" H 7750 1600 50  0001 C CNN
+F 1 "GND" H 7750 1700 50  0000 C CNN
+F 2 "" H 7750 1850 50  0001 C CNN
+F 3 "" H 7750 1850 50  0001 C CNN
+	1    7750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1500 8150 1500
+Wire Wire Line
+	7750 1500 7750 1350
+Wire Wire Line
+	8000 1350 8000 1700
+Wire Wire Line
+	8000 1700 8150 1700
+Wire Wire Line
+	8150 1600 7750 1600
+Wire Wire Line
+	7750 1600 7750 1850
+$Comp
+L Fuse F?
+U 1 1 5CF6CA74
+P 3250 1800
+F 0 "F?" V 3330 1800 50  0000 C CNN
+F 1 "Fuse" V 3175 1800 50  0000 C CNN
+F 2 "" V 3180 1800 50  0001 C CNN
+F 3 "" H 3250 1800 50  0001 C CNN
+	1    3250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1800 3400 1800
+Wire Wire Line
+	3100 1800 3100 1800
+Wire Wire Line
+	2900 1800 3100 1800
+Wire Wire Line
+	3400 1800 3800 1800
+$EndSCHEMATC
