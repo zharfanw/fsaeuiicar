@@ -2,7 +2,6 @@
 Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
 ## Dokumentasi Link
 
-
 ## Kontributor Dokumentasi
 
  - Muhammad Zharfan Wiranata
@@ -16,5 +15,5 @@ Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
  - Jabar Lazuarde
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTAxMTY0OCw1NTcxNTQwMjZdfQ==
+eyJoaXN0b3J5IjpbLTE2NzY2OTMxNjYsNTU3MTU0MDI2XX0=
 -->
