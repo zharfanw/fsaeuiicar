@@ -1,7 +1,7 @@
 # UIIs Formula Students Car 2018
 Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
 ## Dokumentasi Link
-
+Full PDF Doku
 ## Kontributor Dokumentasi
 
  - Muhammad Zharfan Wiranata
@@ -15,5 +15,5 @@ Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
  - Jabar Lazuarde
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY2OTMxNjYsNTU3MTU0MDI2XX0=
+eyJoaXN0b3J5IjpbMTY1MzY5MjM0MCw1NTcxNTQwMjZdfQ==
 -->
