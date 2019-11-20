@@ -1,5 +1,16 @@
-# fsaeuiicar
-Dokumentasi Mobil Listrik FSAE UII 2018
+# UIIs Formula Students Car 2018
+Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
+
+## Kontributor
+
+ - Muhammad Zharfan Wiranata
+ - Rudi Arta 
+ - Muh Fanriado
+ - Kritamayu
+ - Akhid Sulthoni
+ - Muh Dzulfiqar
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5MTEzMzg3XX0=
+eyJoaXN0b3J5IjpbMTgyOTg5NDkyMl19
 -->
