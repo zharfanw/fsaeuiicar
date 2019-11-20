@@ -4,9 +4,6 @@ Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
 ## Kontributor Dokumentasi
 
  - Muhammad Zharfan Wiranata
- - Rudi Arta 
- - Muh Fanriado
- - Kritamayu
  - Akhid Sulthoni
  - Fauzi HPM
  - Muh Dzulfiqar
@@ -17,5 +14,5 @@ Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
  - Jabar Lazuarde
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MTU0MDI2XX0=
+eyJoaXN0b3J5IjpbLTQ0NjI4OTkyMCw1NTcxNTQwMjZdfQ==
 -->
