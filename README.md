@@ -5,6 +5,10 @@ Full PDF Dokumentasi [klik dsini](https://github.com/zharfanw/fsaeuiicar/blob/ma
 ## Kontributor Dokumentasi
 
  - Muhammad Zharfan Wiranata
+ - Muh Fanriado
+ - Kristamayu
+ - Rudi Arta
+ - 
  - Akhid Sulthoni
  - Fauzi HPM
  - Muh Dzulfiqar
@@ -15,5 +19,6 @@ Full PDF Dokumentasi [klik dsini](https://github.com/zharfanw/fsaeuiicar/blob/ma
  - Jabar Lazuarde
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDE3ODEyMSw1NTcxNTQwMjZdfQ==
+eyJoaXN0b3J5IjpbMzE4NDE1MTU5LDE5NzQxNzgxMjEsNTU3MT
+U0MDI2XX0=
 -->
