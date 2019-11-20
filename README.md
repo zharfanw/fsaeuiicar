@@ -8,9 +8,14 @@ Repo ini merupakan dokumentasi dari mobil listrik UII 2018.
  - Muh Fanriado
  - Kritamayu
  - Akhid Sulthoni
+ - Fauzi HPM
  - Muh Dzulfiqar
- - 
+ - Refhan Naparin
+ - Hilal Pambudi
+ - Faiz Isbat
+ - Muh Iqbal
+ - Jabar Lazuarde
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTg5NDkyMl19
+eyJoaXN0b3J5IjpbMjU4MzQ1MTM0XX0=
 -->
